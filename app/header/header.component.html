@@ -1,0 +1,13 @@
+
+<div class="header">
+  <span class="logo">Banking411
+  <button mat-icon-button class='show-more-button' (click)='hideOptions($event)'>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+  </button>
+
+  </span>
+  <div class="pull-right" [ngClass]="{'hide-options': isHidden}">
+    <button mat-stroked-button color="normal" class="nav-button" routerLink="/bank-search" (click)="hideOptions($event)">Bank List</button>
+    <button mat-stroked-button color="normal" class="nav-button" routerLink="/favorite-banks" (click)="hideOptions($event)">Favorites</button>
+  </div>
+</div>

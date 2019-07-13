@@ -1,0 +1,87 @@
+.mat-cell {
+  padding: 4px 10px;
+}
+
+.mat-header-cell {
+  padding: 4px 10px;
+}
+
+.bank-detail-table {
+  margin: auto;
+  width: 95%;
+}
+
+.search-field {
+  margin: auto;
+  /* height: 50px; */
+  display: block;
+}
+
+.select-field {
+  display: block;
+}
+
+.pagination-control {
+  margin: 20px;
+}
+
+.container {
+  display:flex;
+  flex-flow: column;
+}
+.table-container {
+  overflow: scroll;
+  position: relative;
+  min-height: 300px;
+  clip-path: circle(50px at 50% 50%);
+}
+
+.no-clip {
+  transition: all 300ms ease-in-out;
+  clip-path: circle(100%);
+  -webkit-clip-path: none;
+}
+
+.message {
+  text-align: center;
+  color: #aaa;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #faff06;
+  z-index: 10;  
+  pointer-events: none;
+}
+
+.options {
+  margin-top:20px;
+}
+
+.mat-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px
+}
+
+.mat-paginator .mat-paginator-container {
+  justify-content: center;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  min-height: 200px;
+}
+
+.favorite-header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
